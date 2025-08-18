@@ -12,7 +12,7 @@ app = Flask(__name__)
 
 # Define the allowed frontend origin for CORS.
 # This is a constant string; no specific Flask documentation needed.
-FRONTEND_ORIGIN = "https://8gxv3h.csb.app"
+FRONTEND_ORIGIN = "https://84fl4c.csb.app"
 
 # Initialize CORS on the app with specific configurations: resources for /api/* paths, origins limited to the frontend, no credentials support, allowed methods, and headers.
 # Documentation: https://flask-cors.readthedocs.io/en/latest/api.html#flask_cors.CORS
